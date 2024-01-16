@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="SportScript.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html">
+            <img src="Logo.png" alt="website logo">
+        </a>
+    </div>
+    <div class="allnavi">
+        <ul class="navi">
+            <li class="navi_itm"><a href="index.html">Home</a></li>
+            <li class="navi_itm"><a href="reviews.html">Review</a></li>
+            <li class="navi_itm"><a href="#contact">Contact</a></li>
+            <li class="navi_itm"><a href="about.html">About</a></li>
+            <li class="navi_itm"><a href="SaidMap.html">Map</a></li>
+            <li id="currentDateTime" class="time"></p></li>
+        </ul>
+    </div>
+
+    <div class="review-form container mt-4">
+        <h1 class="mb-4">Submit Your Review</h1>
+        <form>
+            <div class="form-group">
+                <label for="username">Your Name:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Rating (1-5):</label>
+                <input type="number" class="form-control" id="rating" name="rating" min="1" max="5" required>
+            </div>
+
+            <div class="form-group">
+                <label for="review">Your Review:</label>
+                <textarea class="form-control" id="review" name="review" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Review</button>
+
+           
+        </form>
+    </div>
+    
+    <div class="footer">
+            <p>&copy; 2023 Your Website | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <div class="contact" id="contact">
+                <h4 class="conhead">Contact us</h4>
+                <p>Al Arab st. 21-Amman -Jordan</p>
+                <p>Tel : 00962-6560​9999</p>
+                <p>​​Post Code : 11937</p>
+                <p>P.O.Box 541350​​</p>
+                <p>info@asu.edu.jo</p>
+            </div>
+    
+            <!-- Site Map -->
+            <div class="sitemap">
+                <h4 class="sitemap-title">Site Map</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

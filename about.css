@@ -1,0 +1,115 @@
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.navi_itm {
+    float: left;
+  }
+  
+.navi_itm a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .time{
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+  
+.navi_itm a:hover {
+    background-color: #111;
+  }
+.about h1{
+    color: #e23e57;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}  
+.mission p{
+    
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.vision{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.mission{
+    padding-top: 2%;
+}
+.footer {
+    background-color: #333;
+    border: 2px solid black;
+    overflow: hidden; /* Clear the float */
+}
+
+.contact {
+    border-left: 1px solid white;
+    padding: 10px;
+    float: left; /* Float the contact div to the left */
+}
+
+.conhead {
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.contact p {
+    color: aliceblue;
+    font-size: x-small;
+}
+
+.footer p {
+    color: aliceblue;
+}
+
+/* Sitemap styling */
+.sitemap {
+    float: right; /* Float the sitemap div to the right */
+    margin: 10px; /* Add margin for spacing */
+}
+
+.sitemap-title {
+    color: aliceblue;
+}
+
+.sitemap ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap li {
+    margin-bottom: 5px;
+}
+
+.sitemap a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.sitemap a:hover {
+    text-decoration: underline;
+}
+body {
+    background-image: url("background.jpeg");
+    
+  }
+
+
+  
+
